@@ -1,0 +1,11 @@
+[project]
+name = "almtoolbox-demo-django-vulnerabilities"
+version = "0.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "Django>=3.2",
+    "pysonar>=1.0.2.1722",
+]
+
+[tool.sonar]
+projectKey = "almtoolbox-demo-django-vulnerabilities"
