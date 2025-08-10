@@ -1,0 +1,15 @@
+name: Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      hello: 
+        type: text
+        description: Hello, World
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo hi
